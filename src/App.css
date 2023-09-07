@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.form-group{
+  height: 60vh;
+  width: 70vh;
+  float: center;
+  display:center ;
+}
+
+/* *{
+  background-image: url("https://th.bing.com/th/id/OIP.Bi1dK5nX7ieaZGqWE7ChugHaEK?pid=ImgDet&rs=1");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  backface-visibility: hidden;
+  /* background-position: 0%; 
+} */
+
+*{
+  background-color: #cbced4;
+}
+.container{
+  border-radius: 13px;
+  /* background-color: #cbced4; */
+  border: 2px solid black;
+  height: 850px;
+  width: 600px;
+}
+
+.h1-font{
+  font-family:Geneva;
+  font-weight: bold;
+}
+.login{
+ 
+  height: 500px;
+  width: 600px;
+}
+.margin{
+  margin-left: 14rem;
+}
+.signup-margin{
+  margin-left: 11.5rem;
+}
