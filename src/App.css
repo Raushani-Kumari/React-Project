@@ -53,19 +53,30 @@
 } */
 
 *{
-  background-color: #cbced4;
+  /* background-color: #be864a; */
 }
 .container{
+  box-shadow: 7px -2px 4px rgb(171 146 146 / 10%), 0 8px 16px rgba(0, 0, 0, .1);
   border-radius: 13px;
-  /* background-color: #cbced4; */
+  background-color: #2e2632;
+  color: white;
   border: 2px solid black;
   height: 850px;
   width: 600px;
+  margin-top: 15px;
 }
 
 .h1-font{
-  font-family:Geneva;
+  font-family: 'DM Serif Display', serif;
   font-weight: bold;
+  text-shadow: 2px 2px 4px #94ac9f;
+
+}
+.subheading{
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .login{
  
@@ -75,6 +86,4 @@
 .margin{
   margin-left: 14rem;
 }
-.signup-margin{
-  margin-left: 11.5rem;
-}
+

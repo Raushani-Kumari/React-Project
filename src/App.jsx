@@ -1,5 +1,6 @@
 
 import './App.css';
+import HomePage from './Homepage';
 import LogIn from './LogIn';
 
 import SignUp from './SignUp';
@@ -8,6 +9,7 @@ function App() {
     <>
       <SignUp></SignUp>
       <LogIn></LogIn>
+      {/* <HomePage></HomePage> */}
       </>
  
   );

@@ -6,12 +6,14 @@ function SignUp() {
 
   return (
     <>
-      <div className="container mt-2">
-        <h1 className="mb-2 text-center h1-font">
+    <h1 className="mb-4 mt-4 text-center h1-font">
           <i>Welcome to Fashion Mantra Jewellery</i>
         </h1>
-        <h2 className="text-left h1-font">Sign Up</h2>
-
+      <div className="container mt-2">
+        
+        <h2 className="text-center subheading">Sign Up</h2>
+        <p className="text-center mb-3">Please fill in the details</p>
+ <hr />
           <div>
             <form>
               {/* <!-- 2 column grid layout with text inputs for the first and last names --> */}
@@ -95,7 +97,7 @@ function SignUp() {
               </div>
 
               {/* <!--Confirm Password input --> */}
-              <div className="form-outline mb-2">
+              <div className="form-outline mb-2  ">
                 <label className="form-label" htmlFor="form3Example7">
                   Confirm Password
                 </label>
@@ -108,8 +110,8 @@ function SignUp() {
               </div>
 
               {/* <!-- Checkbox --> */}
-              <div className="form-check d-flex justify-content-left mb-2 signup-margin">
-                <label className="form-check-label" htmlFor="form2Example33 ">
+              <div className="form-check d-flex justify-content-left mb-2">
+                <label className="form-check-label mb-4 " htmlFor="form2Example33 ">
                   Subscribe to our newsletter
                 </label>
 
@@ -129,7 +131,7 @@ function SignUp() {
 
               {/* <!-- Register buttons --> */}
               <div className="text-center">
-                <p>or sign up with:</p>
+                <p className="mt-3 mb-3">or sign up with:</p>
                 <button
                   type="button"
                   className="btn btn-secondary btn-floating mx-1"
@@ -158,8 +160,8 @@ function SignUp() {
                   <i className="fab fa-github"></i>
                 </button>
 
-                <p className="text-center">
-                  Not a member?{" "}
+                <p className="text-center mt-3">
+                  Already a member?{" "}
                   <a href="#" type="button">
                     Register
                   </a>
