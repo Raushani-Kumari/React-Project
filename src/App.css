@@ -86,4 +86,8 @@
 .margin{
   margin-left: 14rem;
 }
+.btn{
+  overflow: hidden;
+    transition: all .15s ease
+}
 
