@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 function LogIn() {
@@ -108,7 +109,7 @@ function LogIn() {
               Log in
             </button>
             {/* <!-- Register buttons --> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               <p className="mt-3 mb-3">or register with:</p>
               <button
                 type="button"
@@ -137,12 +138,13 @@ function LogIn() {
               >
                 <i className="fab fa-github"></i>
               </button>
-            </div>
+            </div> */}
             <p className="text-center mt-3">
               New member?{" "}
-              <a href="#" type="button">
+              <Link to="/">Create new account</Link>
+              {/* <a href="#" type="button">
                 Create new account
-              </a>
+              </a> */}
             </p>
           </form>
         </div>

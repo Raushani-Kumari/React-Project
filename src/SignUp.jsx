@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from "react-router-dom";
 import "./App.css";
 
 function SignUp() {
@@ -272,7 +273,7 @@ function SignUp() {
             </button>
 
             {/* <!-- Register buttons --> */}
-            <div className="text-center">
+           {/* <div className="text-center">
               <p className="mt-2 mb-2">or sign up with:</p>
               <button
                 type="button"
@@ -300,15 +301,16 @@ function SignUp() {
                 className="btn btn-secondary btn-floating mx-1"
               >
                 <i className="fab fa-github"></i>
-              </button>
+              </button> */}
 
               <p className="text-center mt-2">
                 Already a member?{" "}
-                <a href="#/" type="button">
-                  Register
-                </a>
+                {/* <a href="#/" type="button"> */}
+                  <Link to="login">Register</Link>
+                 
+                {/* </a> */}
               </p>
-            </div>
+            {/* </div> */}
           </form>
         </div>
       </div>
